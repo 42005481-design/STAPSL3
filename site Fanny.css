@@ -1,0 +1,60 @@
+/* Fond bleu */
+body {
+    background-color: #1e3a8a;
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/* Titre animé */
+h1 {
+    font-size: 40px;
+    margin-top: 40px;
+    animation: titreAnime 2s infinite alternate;
+}
+
+/* Animation du titre */
+@keyframes titreAnime {
+    from {
+        transform: scale(1);
+        text-shadow: 0 0 10px black;
+    }
+    to {
+        transform: scale(1.1);
+        text-shadow: 0 0 20px royalblue;, 0 0 30px royalblue;
+    }
+}
+
+/* Sous-titres */
+h2 {
+    margin-top: 20px;
+}
+
+/* Liste */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Espacement des boutons */
+li {
+    margin: 15px;
+}
+
+/* Boutons */
+a {
+    text-decoration: none;
+    background-color: #3b82f6;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+/* Animation boutons */
+a:hover {
+    background-color: #60a5fa;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px black;
+}
